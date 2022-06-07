@@ -6,6 +6,10 @@ import Featured from "../../components/featured/Featured";
 import Chart from "../../components/chart/Chart";
 import Table from "../../components/table/Table";
 
+localStorage.setItem(
+  "token",
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNmMyNGE5YmE3ZWVjMzFhOGQ1MDMxNSIsImlhdCI6MTY1NDY0MjMwOSwiZXhwIjoxNjU1ODUxOTA5fQ.85U558E0aotnMoEKcMy_AI0_Cx7EUHzz-ZZvdzMduOI"
+);
 const Home = () => {
   return (
     <div className="home">
