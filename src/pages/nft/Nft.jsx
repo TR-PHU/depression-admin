@@ -2,7 +2,7 @@
 import React from "react";
 import Sidebar from "../../components/sidebar/Sidebar";
 import Navbar from "../../components/navbar/Navbar";
-import Datatable from "../../components/post/Datatable";
+import Datatable from "../../components/nft/Datatable";
 import axios from "axios";
 import "./nft.scss";
 

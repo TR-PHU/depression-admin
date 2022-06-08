@@ -84,6 +84,22 @@ export const postColumns = [
     },
   },
 ];
+export const nftColumns = [
+  { field: "_id", headerName: "ID", width: 70 },
+  {
+    field: "name",
+    headerName: "Name",
+    width: 230,
+    renderCell: (params) => {
+      return (
+        <div className="cellWithImg">
+          <img className="cellImg" src={params.row.url} alt="avatar" />
+          {params.row.name}
+        </div>
+      );
+    },
+  },
+];
 //temporary data
 export const userRows = [
   {
